@@ -14,6 +14,6 @@ while index < len(text):
 	if index > 0:
 		output_text += ","
 	output_text += str(letter_number) 
-	index += 1 # index = index + 1
-
+	index += 1
+	
 print(output_text)
